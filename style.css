@@ -1,132 +1,481 @@
-/* Header */
-header {
-    background-color: #E73D24;
-}
-/* Logo */
-header img {
-    width: 200px;
-    height: auto;     
-}
-/* Nav list */
-header nav ul{
-    list-style-type: none;
-    text-align: right; 
-}
-header nav ul li {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
-}
-header a:link {
-    text-decoration: none;
-    color: #121212;
-}  
-header a:visited {
-    text-decoration: none;
-    color: #121212;
-} 
-header a:hover {
-    text-decoration: none;
-    color:#90c5df ;
-}
-header a:active {
-    text-decoration: none;
-    color:#90c5df ;
+@media screen and (min-width: 769px) {
+
+    footer {
+        background-color: #121212;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            'socialmedia information suscribe'
+            'privacy terms copyright';
+        row-gap: 1rem;
+        column-gap: 1rem;
+        padding: 3rem;
+
+    }
+
+    .titleMain {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        line-height: 3rem;
+        margin: 0.5rem;
+        color: #E73D24;
+        font-size: 5rem;
+        text-indent: 5px;
+        letter-spacing: 5px;
+        text-align: center;
+        font-family: 'Vina Sans', cursive;
+    }
 }
 
-/* Responsive images --> all the responsive images in the page*/
-.responsiveimg {
-        max-width: 100%;
-        height: auto;
-      }
-/* Event title annd description */
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/* Index */
-body #main {
+body {
     background-color: #90c5df;
 }
-/* Main */
-#main-title {
-    background-color: #90c5df;
-}
-#main-title h1 {
-    line-height: 0;
+
+.titleMain {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    line-height: 3rem;
+    margin: 0.5rem;
     color: #E73D24;
-    font-size: 120px;
+    font-size: 3.5rem;
     text-indent: 5px;
     letter-spacing: 5px;
     text-align: center;
     font-family: 'Vina Sans', cursive;
 }
-#main-title h2 {
+
+/* Header */
+.bg-header-color {
+    background-color: #E73D24;
+}
+
+.navbar-brand img {
+    padding: 0.5rem;
+}
+
+
+/* Nav list */
+
+.header .navbar .navbar-nav .nav-item a {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: 1s;
+}
+
+.navbar-nav .nav-item .nav-link:link {
+    text-decoration: none;
     color: #121212;
-    font-size: 60px;
+}
+
+.navbar-nav .nav-item .nav-link:visited {
+    text-decoration: none;
+    color: #121212;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    text-decoration: none;
+    color: #90c5df;
+    margin: 0rem 0.5rem;
+
+}
+
+.navbar-nav .nav-item .nav-link:active {
+    text-decoration: none;
+    color: #90c5df;
+}
+
+/* Responsive images --> all the responsive images in the page*/
+.responsiveimg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Event title and description */
+
+/* Index / Home page */
+
+.titleWoodstock2023 {
+    margin: 0.3rem;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    top: -1rem;
+}
+
+
+.titleWoodstock2023 h1 {
+    color: #E73D24;
+    font-family: 'Vina Sans', cursive;
+    font-size: 3.5rem;
+}
+
+.titleWoodstock2023 h2 {
+    color: #121212;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+}
+
+.seeLineup {
+    display: flex;
+    flex-wrap: column wrap;
+    align-items: center;
+    position: relative;
+}
+
+.seeLineup img {
+    z-index: -1;
+}
+
+.seeLineup button {
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #fff;
+    padding: 0.1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.seeLineup button:hover {
+    color: #E73D24;
+}
+
+/* Main */
+
+
+
+
+
+
+/* Music Page */
+#musica-body body {
+    background-color: #90c5df;
+}
+
+.lineUp {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.lineUp img {
+    max-width: 100%;
+    margin: 1rem;
+}
+
+.spotifyPlaylist h2 {
+    color: #121212;
+    font-size: 1.5rem;
     text-indent: 5px;
     letter-spacing: 1px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    margin: 0.3rem;
 }
-/* Music Page */
-#musica-body body {
-    background-color: #90c5df;
- }
+
+
+
 /* Map page */
 .mapInfo .mapIcon {
-    max-width: 5%;
+    max-width: 20%;
     height: auto;
 }
+
 .mapGastronomia img {
     height: 10rem;
 }
 
 /* Passes page */
+.buyPasses {
+    display: grid;
+    row-gap: 10px;
+}
+
+.card-title {
+    font-size: 3rem;
+    color: #E73D24;
+    font-family: 'Vina Sans', cursive;
+}
+
+.card-text {
+    font-size: 1.4rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card button {
+    background-color: #E73D24;
+    border: 3px solid #E73D24;
+    border-radius: 2px;
+    padding-left: 30px;
+    padding-right: 30px
+}
 
 /* Merch Page */
+.shopTitle {
+    display: flex;
+    flex-wrap: column wrap;
+    align-items: center;
+    margin: 1rem 1rem;
+}
+
+.shopTitle h1 {
+    text-align: center;
+    color: #E73D24;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
 .merchItems img {
-    max-width: 20%;
+    max-width: 20rem;
     height: auto;
+
+}
+
+.merchItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.merchItems .merchProduct {
+    margin: 1rem 4rem 2rem 4rem;
+    flex-direction: column;
+}
+
+.merchItems .merchProduct h4 {
+    font-size: 2rem;
+    margin: 10px auto 5px auto;
+}
+
+.merchItems .merchProduct p {
+    font-size: 1.5rem;
+    margin: 5px auto 5px auto;
+    display: inline-flex;
+}
+
+
+.merchItems button {
+    background-color: #E73D24;
+    border: 3px solid #E73D24;
+    border-radius: 2px;
+    position: relative;
+    padding: 2px 12px 2px 12px;
+    margin: 1rem;
+    left: 12rem;
+    font-size: 1rem;
+}
+
+/* Contact Page */
+
+.contactForm {
+    display: grid;
+    margin: 3rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+.contactForm label {
+    margin: 0.2rem;
+    font-family: 'Rubik', sans-serif;
+}
+
+.contactForm .contact-fill input {
+    margin: 0.2rem;
+    padding: 0.5rem;
+    max-width: 30rem;
 }
 
 /* Footer */
-footer {
-    background-color: #121212;
+@media screen and (max-width:768px) {
+
+    footer {
+        background-color: #121212;
+        display: flex;
+        padding: 10px;
+        flex-flow: column wrap;
+        align-items: center;
+        bottom: 0;
+    }
+
+
 }
-footer img {
-    float: right;
-    width: 200px;
-    height: auto; 
+
+
+footer p {
+    display: flex;
+    text-align: center;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-style: bold;
+    font-size: 1rem;
+    margin-bottom: 9px;
 }
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1.875rem;
+}
+
+/* Social Media */
+.socialmedia {
+    display: flex;
+    flex-flow: column wrap;
+    grid-area: socialmedia;
+
+}
+
+.socialmedia-icons {
+    margin: -1rem;
+}
+
 .fa {
-    padding: 20px;
+    padding: 8px;
     font-size: 30px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-  }
+    margin: 1px 2px;
+}
+
 .fa:hover {
     opacity: 0.7;
 }
+
 .fa-facebook {
     background: #2d3ebe;
     color: #fff;
-  }
+}
+
 .fa-instagram {
-    background:#7c31aa;
+    background: #7c31aa;
     color: #fff;
 
 }
+
 .fa-twitter {
-    background:#39a4c4;
+    background: #39a4c4;
     color: #fff;
 }
+
 .fa-youtube {
-    background:#da1815;
+    background: #da1815;
     color: #fff;
 }
-.contact p {
-    font-family:'Vina Sans', cursive;
-    font-style: bold;
-    font-size: 25px;
-    text-align: left;
-    color: #fff;
+
+/* Information */
+.information-contact {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    grid-area: information;
+}
+
+.information-contact ul {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    list-style: none;
+}
+
+.information-contact ul li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    color: #b9b9b9;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.information-contact a:hover {
+    color: #E73D24;
+}
+
+/* Sucribe to weekly news */
+.suscribe {
+    display: flex;
+    flex-flow: column wrap;
+    grid-area: suscribe;
+}
+
+.suscribe form {
+    display: flex;
+    flex-wrap: row wrap;
+    align-items: center;
+}
+
+.suscribe button {
+    font-family: 'Vina sans', sans-serif;
+    color: #121212;
+    background-color: #E73D24;
+    border: 1px solid #E73D24;
+    padding: 2px;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+/* Legal and Copyright */
+
+.legal-box {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: center;
+    margin: 0.5rem;
+    font-size: 1rem;
+}
+
+.legal-box a {
+    color: #aaaaaa;
+    padding: 0.5rem;
+}
+
+.terms {
+    grid-area: terms;
+}
+
+.privacy {
+
+    grid-area: privacy;
+}
+
+.copyright {
+    grid-area: copyright;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.copyright img {
+    max-width: 5rem;
+}
+
+.copyright p {
+    font-size: 0.7rem;
 }
