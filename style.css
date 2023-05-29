@@ -244,26 +244,24 @@ header {
 }
 
 /* Merch Page */
-.shopTitle {
-    display: flex;
-    flex-wrap: column wrap;
-    align-items: center;
-    margin: 1rem 1rem;
+@media screen and (max-width: 768px) {
+    .shopTitle h1 {
+        font-size: 2.5rem;
+    }
 }
 
-.shopTitle h1 {
-    text-align: center;
-    color: #E73D24;
-    font-family: 'Rubik', sans-serif;
-    font-size: 2.5rem;
-    letter-spacing: 1px;
+@media screen and (min-width: 769px) {
+    .shopTitle h1 {
+        font-size: 4rem;
+    }
 }
 
 .merchItems img {
     max-width: 20rem;
     height: auto;
-
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
 }
+
 
 .merchItems {
     display: flex;
@@ -299,6 +297,7 @@ header {
     margin: 1rem;
     left: 12rem;
     font-size: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
 }
 
 /* FAQ Page */
