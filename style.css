@@ -224,15 +224,11 @@ header {
     max-width: auto;
 }
 
-.mapInfo {
-    display: flex;
-    justify-content: center;
-}
 
 .mapInfo .mapIcon {
+    margin-top: 1rem;
     background-color: #fff;
     border-radius: 30px;
-    width: 50px;
     height: auto;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
 
