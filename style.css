@@ -204,15 +204,18 @@ header {
     max-width: auto;
 }
 
-.container .mapInfo {
+.mapInfo {
     display: flex;
     justify-content: center;
 }
 
 .mapInfo .mapIcon {
-    max-width: 20%;
+    background-color: #fff;
+    border-radius: 30px;
+    max-width: 50px;
     height: auto;
 }
+
 
 .mapGastronomia img {
     height: 10rem;
