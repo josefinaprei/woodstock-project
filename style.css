@@ -232,8 +232,10 @@ header {
 .mapInfo .mapIcon {
     background-color: #fff;
     border-radius: 30px;
-    max-width: 50px;
+    width: 50px;
     height: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
+
 }
 
 
