@@ -1,0 +1,200 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #90c5df;
+}
+
+
+.title {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    font-family: 'Vina Sans', cursive;
+    color: #E73D24;
+    letter-spacing: 5px;
+    text-indent: 5px;
+}
+
+.subtitle {
+    color: #121212;
+    font-family: 'Rubik', sans-serif;
+}
+
+/* Header */
+header {
+    z-index: 1;
+}
+
+.bg-header-color {
+    background-color: #E73D24;
+}
+
+.navbar-brand img {
+    padding: 0.5rem;
+}
+
+
+/* Nav list */
+
+.header .navbar .navbar-nav .nav-item {
+    a {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.3rem;
+    }
+
+    .nav-link {
+        transition: 1s;
+
+        &:link {
+            text-decoration: none;
+            color: #121212;
+        }
+
+        &:visited {
+            text-decoration: none;
+            color: #121212;
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: #90c5df;
+            margin: 0rem 0.5rem;
+
+        }
+
+        &:active {
+            text-decoration: none;
+            color: #90c5df;
+        }
+    }
+}
+
+/* Responsive images --> all the responsive images in the page*/
+.responsiveimg {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Index / Home page */
+#carouselMainPage {
+    margin: 1.5rem 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.911);
+}
+
+.titleWoodstock2023 {
+    margin: 0.3rem;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    top: -1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .titleHomePage {
+        font-size: 7rem;
+    }
+
+    .subtitleHomePage {
+        font-size: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .titleHomePage {
+        font-size: 5rem;
+    }
+
+    .subtitleHomePage {
+        font-size: 3rem;
+    }
+}
+
+
+.seeLineup {
+    display: flex;
+    flex-wrap: column wrap;
+    align-items: center;
+    position: relative;
+
+    & img {
+        z-index: -1;
+    }
+
+    & button {
+        font-family: 'Rubik', sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: #fff;
+        padding: 0.1rem;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            color: #E73D24;
+        }
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .seeLineup button {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .seeLineup button {
+        font-size: 3.5rem;
+    }
+}
+
+.seeLineup button:hover {
+    color: #E73D24;
+}
+
+/* Music Page */
+#musica-body body {
+    background-color: #90c5df;
+}
+
+.lineUp {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    }
+}
+
+/* Playlist */
+
+.spotifyPlaylist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    iframe {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    }
+}
