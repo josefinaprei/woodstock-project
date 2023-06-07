@@ -1,3 +1,5 @@
+$mainTitleStyles : color orange;
+
 /* Universal */
 * {
     margin: 0;
@@ -196,5 +198,205 @@ header {
 
     iframe {
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    }
+}
+
+@media screen and (max-width: 1009px) {
+    .subtitlePlaylist {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1010px) {
+    .subtitlePlaylist {
+        font-size: 4rem;
+    }
+}
+
+/* Map page */
+@media screen and (min-width: 851px) {
+    .mapPageTitle {
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .mapPageTitle {
+        font-size: 3.2rem;
+    }
+}
+
+.mapPageMain img {
+    max-width: auto;
+}
+
+.mapInfo {
+    .mapIcon {
+        max-width: 100px;
+        margin-top: 1rem;
+        background-color: #fff;
+        border-radius: 100px;
+        height: auto;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
+    }
+}
+
+.mapGastronomia img {
+    height: 10rem;
+}
+
+/* Passes page */
+@media screen and (max-width: 768px) {
+    .titlePasses h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .titlePasses h1 {
+        font-size: 4rem;
+    }
+}
+
+.buyPasses {
+    display: grid;
+    row-gap: 10px;
+
+    .card {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+
+        .card-title {
+            font-size: 3rem;
+            color: #E73D24;
+            font-family: 'Vina Sans', cursive;
+        }
+
+        .card-text {
+            font-size: 1.4rem;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        button {
+            background-color: #E73D24;
+            border: 3px solid #E73D24;
+            border-radius: 2px;
+            padding-left: 30px;
+            padding-right: 30px
+        }
+    }
+}
+
+/* Merch Page */
+@media screen and (max-width: 768px) {
+    .shopTitle h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .shopTitle h1 {
+        font-size: 4rem;
+    }
+}
+
+.merchItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem;
+    font-family: 'Rubik', sans-serif;
+
+
+    .merchProduct {
+        margin: 1rem 4rem 2rem 4rem;
+        flex-direction: column;
+
+        img {
+            max-width: 20rem;
+            height: auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+        }
+
+        h4 {
+            font-size: 2rem;
+            margin: 10px auto 5px auto;
+        }
+
+        p {
+            font-size: 1.5rem;
+            margin: 5px auto 5px auto;
+            display: inline-flex;
+        }
+
+        button {
+            background-color: #E73D24;
+            border: 3px solid #E73D24;
+            border-radius: 2px;
+            position: relative;
+            padding: 2px 12px 2px 12px;
+            margin: 1rem;
+            left: 12rem;
+            font-size: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+        }
+    }
+}
+
+/* FAQ Page */
+.titleFaq {
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    color: #121212;
+}
+
+@media screen and (max-width: 768px) {
+    .titleFaq {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .titleFaq {
+        font-size: 4rem;
+    }
+}
+
+.faq-section {
+    .accordion {
+        margin: 3.4rem;
+    }
+}
+
+/* Contact Page */
+.contactForm {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+
+    .contact-fill {
+        label {
+            margin: 0.2rem;
+            font-family: 'Rubik', sans-serif;
+        }
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .contactFormTitle {
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contactFormTitle {
+        font-size: 3rem;
+        margin-bottom: 2rem;
     }
 }
