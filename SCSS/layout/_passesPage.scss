@@ -1,0 +1,29 @@
+/* Passes page */
+
+.buyPasses {
+    display: grid;
+    row-gap: 10px;
+
+    .card {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+
+        .card-title {
+            font-size: 3rem;
+            color: #E73D24;
+            font-family: 'Vina Sans', cursive;
+        }
+
+        .card-text {
+            font-size: 1.4rem;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        button {
+            background-color: #E73D24;
+            border: 3px solid #E73D24;
+            border-radius: 2px;
+            padding-left: 30px;
+            padding-right: 30px
+        }
+    }
+}

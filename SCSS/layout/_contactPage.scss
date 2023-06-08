@@ -1,0 +1,32 @@
+/* Contact page */
+.contactForm {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+
+    .contact-fill {
+        label {
+            margin: 0.2rem;
+            font-family: 'Rubik', sans-serif;
+        }
+
+        input {
+            margin: 0.2rem;
+            padding: 1rem;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 1.5rem;
+            border: 2px solid #e9eaea;
+            font-size: 0.9rem;
+            border-radius: 10px;
+            transition: all 0.5 ease;
+        }
+    }
+}

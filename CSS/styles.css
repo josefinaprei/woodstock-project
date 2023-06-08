@@ -3,6 +3,7 @@ body {
 }
 
 /* Header */
+/* Header */
 header {
   z-index: 1;
 }
@@ -63,7 +64,135 @@ header {
   font-family: "Rubik", sans-serif;
 }
 
+/* Media Querys */
+/* Desktop Version */
+@media screen and (min-width: 769px) {
+  .titleHomePage {
+    font-size: 7rem;
+  }
+  .subtitleHomePage {
+    font-size: 4rem;
+  }
+  .seeLineup button {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (min-width: 1010px) {
+  .subtitlePlaylist {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 851px) {
+  .mapPageTitle {
+    font-size: 5rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .titlePasses h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .shopTitle h1 {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .titleFaq {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 769px) {
+  .contactFormTitle {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+}
+/* Mobile Version */
+@media screen and (max-width: 768px) {
+  .titleHomePage {
+    font-size: 5rem;
+  }
+  .subtitleHomePage {
+    font-size: 3rem;
+  }
+  .seeLineup button {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1009px) {
+  .subtitlePlaylist {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .mapPageTitle {
+    font-size: 3.2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .titlePasses h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .shopTitle h1 {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .titleFaq {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contactFormTitle {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+}
 /* Index / Home page */
+#carouselMainPage {
+  margin: 1.5rem 2rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.911);
+}
+
+.titleWoodstock2023 {
+  margin: 0.3rem;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: center;
+  z-index: 10;
+  position: relative;
+  top: -1rem;
+}
+
+.seeLineup {
+  display: flex;
+  flex-wrap: column wrap;
+  align-items: center;
+  position: relative;
+}
+.seeLineup img {
+  z-index: -1;
+}
+.seeLineup button {
+  font-family: "Rubik", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  color: #fff;
+  padding: 0.1rem;
+  border: none;
+  cursor: pointer;
+}
+.seeLineup button:hover {
+  color: #E73D24;
+}
+
 /* Music Page */
 #musica-body body {
   background-color: #90c5df;
@@ -96,27 +225,8 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
 }
 
-@media screen and (max-width: 1009px) {
-  .subtitlePlaylist {
-    font-size: 2.5rem;
-  }
-}
-@media screen and (min-width: 1010px) {
-  .subtitlePlaylist {
-    font-size: 4rem;
-  }
-}
 /* Map page */
-@media screen and (min-width: 851px) {
-  .mapPageTitle {
-    font-size: 5rem;
-  }
-}
-@media screen and (max-width: 850px) {
-  .mapPageTitle {
-    font-size: 3.2rem;
-  }
-}
+/* Map page */
 .mapPageMain img {
   max-width: auto;
 }
@@ -135,16 +245,7 @@ header {
 }
 
 /* Passes page */
-@media screen and (max-width: 768px) {
-  .titlePasses h1 {
-    font-size: 3rem;
-  }
-}
-@media screen and (min-width: 769px) {
-  .titlePasses h1 {
-    font-size: 4rem;
-  }
-}
+/* Passes page */
 .buyPasses {
   display: grid;
   row-gap: 10px;
@@ -170,16 +271,7 @@ header {
 }
 
 /* Merch Page */
-@media screen and (max-width: 768px) {
-  .shopTitle h1 {
-    font-size: 2.5rem;
-  }
-}
-@media screen and (min-width: 769px) {
-  .shopTitle h1 {
-    font-size: 4rem;
-  }
-}
+/* Merch page */
 .merchItems {
   display: flex;
   flex-wrap: wrap;
@@ -223,21 +315,12 @@ header {
   color: #121212;
 }
 
-@media screen and (max-width: 768px) {
-  .titleFaq {
-    font-size: 2.5rem;
-  }
-}
-@media screen and (min-width: 769px) {
-  .titleFaq {
-    font-size: 4rem;
-  }
-}
 .faq-section .accordion {
   margin: 3.4rem;
 }
 
 /* Contact Page */
+/* Contact page */
 .contactForm {
   display: flex;
   flex-flow: column wrap;
@@ -266,17 +349,123 @@ header {
   transition: all 0.5 ease;
 }
 
+/* Footer */
+/* Footer */
 @media screen and (min-width: 769px) {
-  .contactFormTitle {
-    font-size: 5rem;
-    margin-bottom: 2rem;
+  footer {
+    background-color: #121212;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "socialmedia information suscribe" "privacy terms copyright";
+    row-gap: 1rem;
+    column-gap: 1rem;
+    justify-items: center;
   }
 }
 @media screen and (max-width: 768px) {
-  .contactFormTitle {
-    font-size: 3rem;
-    margin-bottom: 2rem;
+  footer {
+    background-color: #121212;
+    display: flex;
+    padding: 10px;
+    flex-flow: column wrap;
+    align-items: center;
+    bottom: 0;
   }
+}
+footer .footer-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+footer .footer-box p {
+  display: flex;
+  text-align: center;
+  color: #fff;
+  font-family: "Rubik", sans-serif;
+  font-style: bold;
+  font-size: 1.2rem;
+  margin-bottom: 2px;
+  margin-top: 2rem;
+}
+footer .socialmedia {
+  display: flex;
+  flex-flow: column wrap;
+  grid-area: socialmedia;
+}
+footer .socialmedia .fa-brands {
+  color: #e0e0e0;
+  font-size: 2rem;
+  padding: 7px 10px;
+}
+footer .socialmedia .fa-brands:hover {
+  text-decoration: none;
+  color: #90c5df;
+  margin: 0rem 0.5rem;
+  transition: 1s;
+}
+footer .information-contact {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  grid-area: information;
+}
+footer .information-contact ul {
+  list-style: none;
+}
+footer .information-contact ul li a {
+  font-family: "Rubik";
+  font-size: 1rem;
+  color: #b9b9b9;
+  text-decoration: none;
+}
+footer .information-contact ul li a:hover {
+  color: #E73D24;
+}
+footer .suscribe {
+  display: flex;
+  flex-flow: column wrap;
+  grid-area: suscribe;
+}
+footer .suscribe form {
+  display: flex;
+  flex-wrap: row wrap;
+  align-items: center;
+}
+footer .suscribe form button {
+  font-family: "Vina sans", sans-serif;
+  color: #121212;
+  background-color: #E73D24;
+  border: 1px solid #E73D24;
+  padding: 2px;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+footer .legal-box {
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: center;
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 1rem;
+}
+footer .legal-box a {
+  color: #aaaaaa;
+}
+footer .terms {
+  grid-area: terms;
+}
+footer .privacy {
+  grid-area: privacy;
+}
+footer .copyright {
+  grid-area: copyright;
+}
+footer .copyright p {
+  font-size: 0.8rem;
+  color: #707070;
 }
 
 /*# sourceMappingURL=styles.css.map */

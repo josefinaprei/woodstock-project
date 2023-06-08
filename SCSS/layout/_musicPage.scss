@@ -1,0 +1,33 @@
+#musica-body body {
+    background-color: #90c5df;
+}
+
+.lineUp {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        max-width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    }
+}
+
+/* Playlist */
+
+.spotifyPlaylist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    iframe {
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+    }
+}

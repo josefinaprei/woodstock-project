@@ -14,3 +14,46 @@
         font-size: 3.5rem;
     }
 }
+
+//MUSIC PAGE
+@media screen and (min-width: 1010px) {
+    .subtitlePlaylist {
+        font-size: 4rem;
+    }
+}
+
+//MAP PAGE
+@media screen and (min-width: 851px) {
+    .mapPageTitle {
+        font-size: 5rem;
+    }
+}
+
+//PASSES PAGE
+@media screen and (min-width: 769px) {
+    .titlePasses h1 {
+        font-size: 4rem;
+    }
+}
+
+//MERCH PAGE
+@media screen and (min-width: 769px) {
+    .shopTitle h1 {
+        font-size: 4rem;
+    }
+}
+
+//FAQ Page
+@media screen and (min-width: 769px) {
+    .titleFaq {
+        font-size: 4rem;
+    }
+}
+
+//CONTACT PAGE
+@media screen and (min-width: 769px) {
+    .contactFormTitle {
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+}
