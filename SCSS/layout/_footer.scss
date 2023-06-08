@@ -1,0 +1,147 @@
+/* Footer */
+
+@media screen and (min-width: 769px) {
+
+    footer {
+        background-color: #121212;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            'socialmedia information suscribe'
+            'privacy terms copyright';
+        row-gap: 1rem;
+        column-gap: 1rem;
+        justify-items: center;
+
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    footer {
+        background-color: #121212;
+        display: flex;
+        padding: 10px;
+        flex-flow: column wrap;
+        align-items: center;
+        bottom: 0;
+    }
+}
+
+footer {
+    .footer-box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 2rem;
+
+        p {
+            display: flex;
+            text-align: center;
+            color: #fff;
+            font-family: 'Rubik', sans-serif;
+            font-style: bold;
+            font-size: 1.2rem;
+            margin-bottom: 2px;
+            margin-top: 2rem;
+        }
+    }
+
+    .socialmedia {
+        display: flex;
+        flex-flow: column wrap;
+        grid-area: socialmedia;
+
+        .fa-brands {
+            color: #e0e0e0;
+            font-size: 2rem;
+            padding: 7px 10px;
+
+            &:hover {
+                text-decoration: none;
+                color: #90c5df;
+                margin: 0rem 0.5rem;
+                transition: 1s;
+            }
+        }
+    }
+
+    .information-contact {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        grid-area: information;
+
+        ul {
+            list-style: none;
+
+            li a {
+                font-family: 'Rubik';
+                font-size: 1rem;
+                color: #b9b9b9;
+                text-decoration: none;
+
+                &:hover {
+                    color: #E73D24;
+                }
+            }
+        }
+    }
+
+    .suscribe {
+        display: flex;
+        flex-flow: column wrap;
+        grid-area: suscribe;
+
+        form {
+            display: flex;
+            flex-wrap: row wrap;
+            align-items: center;
+
+            button {
+                font-family: 'Vina sans', sans-serif;
+                color: #121212;
+                background-color: #E73D24;
+                border: 1px solid #E73D24;
+                padding: 2px;
+                margin-left: 10px;
+                border-radius: 3px;
+            }
+        }
+    }
+
+    .legal-box {
+        display: flex;
+        flex-direction: row wrap;
+        justify-content: center;
+        font-size: 1rem;
+        margin-bottom: 0;
+        margin-top: 1rem;
+
+        a {
+            color: #aaaaaa;
+
+        }
+    }
+
+    .terms {
+        grid-area: terms;
+    }
+
+    .privacy {
+        grid-area: privacy;
+    }
+
+    .copyright {
+        grid-area: copyright;
+
+        p {
+            font-size: 0.8rem;
+            color: #707070;
+        }
+    }
+
+
+}

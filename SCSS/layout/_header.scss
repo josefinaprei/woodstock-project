@@ -1,0 +1,54 @@
+/* Header */
+header {
+    z-index: 1;
+}
+
+.bg-header-color {
+    background-color: #E73D24;
+}
+
+.navbar-brand img {
+    padding: 0.5rem;
+}
+
+
+/* Nav list */
+
+.header .navbar .navbar-nav .nav-item {
+    a {
+        font-family: 'Rubik', sans-serif;
+        font-size: 1.3rem;
+    }
+
+    .nav-link {
+        transition: 1s;
+
+        &:link {
+            text-decoration: none;
+            color: #121212;
+        }
+
+        &:visited {
+            text-decoration: none;
+            color: #121212;
+        }
+
+        &:hover {
+            text-decoration: none;
+            color: #90c5df;
+            margin: 0rem 0.5rem;
+
+        }
+
+        &:active {
+            text-decoration: none;
+            color: #90c5df;
+        }
+    }
+}
+
+/* Responsive images --> all the responsive images in the page*/
+.responsiveimg {
+    max-width: 100%;
+    height: auto;
+}
