@@ -1,0 +1,43 @@
+#carouselMainPage {
+    margin: 1.5rem 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.911);
+}
+
+.titleWoodstock2023 {
+    margin: 0.3rem;
+    display: flex;
+    flex-flow: column wrap;
+    text-align: center;
+    justify-content: center;
+    z-index: 10;
+    position: relative;
+    top: -1rem;
+}
+
+.seeLineup {
+    display: flex;
+    flex-wrap: column wrap;
+    align-items: center;
+    position: relative;
+
+    & img {
+        z-index: -1;
+    }
+
+    & button {
+        font-family: 'Rubik', sans-serif;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        color: #fff;
+        padding: 0.1rem;
+        border: none;
+        cursor: pointer;
+
+        &:hover {
+            color: #E73D24;
+        }
+    }
+}
