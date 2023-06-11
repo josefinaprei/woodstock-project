@@ -1,3 +1,8 @@
+//VARIABLES
+@import '../utilities/_variables.scss';
+//MIXINS
+@import '../utilities/_mixins.scss';
+
 #carouselMainPage {
     margin: 1.5rem 2rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.911);
@@ -37,7 +42,7 @@
         cursor: pointer;
 
         &:hover {
-            color: #E73D24;
+            color: $orange-main;
         }
     }
 }

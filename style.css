@@ -15,7 +15,7 @@ body {
     align-items: center;
     text-align: center;
     font-family: 'Vina Sans', cursive;
-    color: #E73D24;
+    color: $orange-main;
     letter-spacing: 5px;
     text-indent: 5px;
 }
@@ -31,7 +31,7 @@ header {
 }
 
 .bg-header-color {
-    background-color: #E73D24;
+    background-color: $orange-main;
 }
 
 .navbar-brand img {
@@ -156,7 +156,7 @@ header {
 }
 
 .seeLineup button:hover {
-    color: #E73D24;
+    color: $orange-main;
 }
 
 /* Music Page */
@@ -264,7 +264,7 @@ header {
 
 .card-title {
     font-size: 3rem;
-    color: #E73D24;
+    color: $orange-main;
     font-family: 'Vina Sans', cursive;
 }
 
@@ -274,8 +274,8 @@ header {
 }
 
 .card button {
-    background-color: #E73D24;
-    border: 3px solid #E73D24;
+    background-color: $orange-main;
+    border: 3px solid $orange-main;
     border-radius: 2px;
     padding-left: 30px;
     padding-right: 30px
@@ -327,8 +327,8 @@ header {
 
 
 .merchItems button {
-    background-color: #E73D24;
-    border: 3px solid #E73D24;
+    background-color: $orange-main;
+    border: 3px solid $orange-main;
     border-radius: 2px;
     position: relative;
     padding: 2px 12px 2px 12px;
@@ -502,7 +502,7 @@ footer p {
 }
 
 .information-contact a:hover {
-    color: #E73D24;
+    color: $orange-main;
 }
 
 /* Sucribe to weekly news */
@@ -521,8 +521,8 @@ footer p {
 .suscribe button {
     font-family: 'Vina sans', sans-serif;
     color: #121212;
-    background-color: #E73D24;
-    border: 1px solid #E73D24;
+    background-color: $orange-main;
+    border: 1px solid $orange-main;
     padding: 2px;
     margin-left: 10px;
     border-radius: 3px;

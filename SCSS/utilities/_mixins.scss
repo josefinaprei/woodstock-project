@@ -1,0 +1,13 @@
+//VARIABLES
+@import '../utilities/_variables.scss';
+
+@mixin title {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    font-family: 'Vina Sans', cursive;
+    color: $orange-main;
+    letter-spacing: 5px;
+    text-indent: 5px;
+}

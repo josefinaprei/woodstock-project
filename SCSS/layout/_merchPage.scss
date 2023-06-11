@@ -1,3 +1,8 @@
+//VARIABLES
+@import '../utilities/_variables.scss';
+//MIXINS
+@import '../utilities/_mixins.scss';
+
 /* Merch page */
 .merchItems {
     display: flex;
@@ -29,8 +34,8 @@
         }
 
         button {
-            background-color: #E73D24;
-            border: 3px solid #E73D24;
+            background-color: $orange-main;
+            border: 3px solid $orange-main;
             border-radius: 2px;
             position: relative;
             padding: 2px 12px 2px 12px;

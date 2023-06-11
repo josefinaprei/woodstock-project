@@ -1,4 +1,10 @@
+//VARIABLES
+@import '../utilities/_variables.scss';
+//MIXINS
+@import '../utilities/_mixins.scss';
+
 .titleFaq {
+    @include title;
     text-shadow: 0 0 20px rgb(255, 255, 255);
     color: #121212;
 }

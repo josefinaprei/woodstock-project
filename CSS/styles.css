@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #90c5df;
 }
@@ -9,7 +14,7 @@ header {
 }
 
 .bg-header-color {
-  background-color: #E73D24;
+  background-color: #e73c24;
 }
 
 .navbar-brand img {
@@ -54,7 +59,7 @@ header {
   align-items: center;
   text-align: center;
   font-family: "Vina Sans", cursive;
-  color: #E73D24;
+  color: #e73c24;
   letter-spacing: 5px;
   text-indent: 5px;
 }
@@ -190,7 +195,7 @@ header {
   cursor: pointer;
 }
 .seeLineup button:hover {
-  color: #E73D24;
+  color: #e73c24;
 }
 
 /* Music Page */
@@ -255,7 +260,7 @@ header {
 }
 .buyPasses .card .card-title {
   font-size: 3rem;
-  color: #E73D24;
+  color: #e73c24;
   font-family: "Vina Sans", cursive;
 }
 .buyPasses .card .card-text {
@@ -263,8 +268,8 @@ header {
   font-family: "Rubik", sans-serif;
 }
 .buyPasses .card button {
-  background-color: #E73D24;
-  border: 3px solid #E73D24;
+  background-color: #e73c24;
+  border: 3px solid #e73c24;
   border-radius: 2px;
   padding-left: 30px;
   padding-right: 30px;
@@ -298,8 +303,8 @@ header {
   display: inline-flex;
 }
 .merchItems .merchProduct button {
-  background-color: #E73D24;
-  border: 3px solid #E73D24;
+  background-color: #e73c24;
+  border: 3px solid #e73c24;
   border-radius: 2px;
   position: relative;
   padding: 2px 12px 2px 12px;
@@ -311,6 +316,14 @@ header {
 
 /* FAQ Page */
 .titleFaq {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Vina Sans", cursive;
+  color: #e73c24;
+  letter-spacing: 5px;
+  text-indent: 5px;
   text-shadow: 0 0 20px rgb(255, 255, 255);
   color: #121212;
 }
@@ -422,7 +435,7 @@ footer .information-contact ul li a {
   text-decoration: none;
 }
 footer .information-contact ul li a:hover {
-  color: #E73D24;
+  color: #e73c24;
 }
 footer .suscribe {
   display: flex;
@@ -437,8 +450,8 @@ footer .suscribe form {
 footer .suscribe form button {
   font-family: "Vina sans", sans-serif;
   color: #121212;
-  background-color: #E73D24;
-  border: 1px solid #E73D24;
+  background-color: #e73c24;
+  border: 1px solid #e73c24;
   padding: 2px;
   margin-left: 10px;
   border-radius: 3px;

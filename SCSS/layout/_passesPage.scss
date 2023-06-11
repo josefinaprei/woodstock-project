@@ -1,5 +1,9 @@
-/* Passes page */
+//VARIABLES
+@import '../utilities/_variables.scss';
+//MIXINS
+@import '../utilities/_mixins.scss';
 
+/* Passes page */
 .buyPasses {
     display: grid;
     row-gap: 10px;
@@ -9,7 +13,7 @@
 
         .card-title {
             font-size: 3rem;
-            color: #E73D24;
+            color: $orange-main;
             font-family: 'Vina Sans', cursive;
         }
 
@@ -19,8 +23,8 @@
         }
 
         button {
-            background-color: #E73D24;
-            border: 3px solid #E73D24;
+            background-color: $orange-main;
+            border: 3px solid $orange-main;
             border-radius: 2px;
             padding-left: 30px;
             padding-right: 30px
