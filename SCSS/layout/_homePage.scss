@@ -17,12 +17,18 @@
     z-index: 10;
     position: relative;
     top: -1rem;
+
+    .title {
+        @include title;
+    }
+
+    .subtitle {
+        @include subtitle;
+    }
 }
 
 .seeLineup {
-    display: flex;
-    flex-wrap: column wrap;
-    align-items: center;
+    @include flexColumnCenter;
     position: relative;
 
     & img {

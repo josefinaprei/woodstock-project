@@ -4,6 +4,10 @@
 @import '../utilities/_mixins.scss';
 
 /* Passes page */
+.title {
+    @include title;
+}
+
 .buyPasses {
     display: grid;
     row-gap: 10px;
@@ -23,11 +27,7 @@
         }
 
         button {
-            background-color: $orange-main;
-            border: 3px solid $orange-main;
-            border-radius: 2px;
-            padding-left: 30px;
-            padding-right: 30px
+            @include buttonOrangeShadow;
         }
     }
 }

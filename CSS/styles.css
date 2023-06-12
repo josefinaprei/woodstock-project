@@ -13,12 +13,10 @@ body {
 header {
   z-index: 1;
 }
-
-.bg-header-color {
+header .bg-header-color {
   background-color: #e73c24;
 }
-
-.navbar-brand img {
+header .navbar-brand img {
   padding: 0.5rem;
 }
 
@@ -76,6 +74,9 @@ header {
   .mapPageTitle {
     font-size: 5rem;
   }
+  .titleFoodTrucks {
+    font-size: 4rem;
+  }
 }
 @media screen and (min-width: 769px) {
   .titlePasses h1 {
@@ -119,6 +120,9 @@ header {
   .mapPageTitle {
     font-size: 3.2rem;
   }
+  .titleFoodTrucks {
+    font-size: 3.2rem;
+  }
 }
 @media screen and (max-width: 768px) {
   .titlePasses h1 {
@@ -157,6 +161,24 @@ header {
   position: relative;
   top: -1rem;
 }
+.titleWoodstock2023 .title {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Vina Sans", cursive;
+  color: #e73c24;
+  letter-spacing: 5px;
+  text-indent: 5px;
+}
+.titleWoodstock2023 .subtitle {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #121212;
+}
 
 .seeLineup {
   display: flex;
@@ -190,8 +212,7 @@ header {
 
 .lineUp {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  flex-flow: row wrap;
   justify-content: center;
 }
 .lineUp img {
@@ -202,11 +223,19 @@ header {
 }
 
 /* Playlist */
-.spotifyPlaylist {
+.subtitle {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
   align-items: center;
   text-align: center;
+  font-family: "Rubik", sans-serif;
+  color: #121212;
+}
+
+.spotifyPlaylist {
+  display: flex;
+  flex-wrap: column wrap;
+  align-items: center;
   margin-bottom: 2rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -225,17 +254,42 @@ header {
   max-width: 100px;
   margin-top: 1rem;
   background-color: #fff;
+  border-color: #fff;
   border-radius: 100px;
   height: auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
 }
+.mapInfo h5 {
+  font-family: "Rubik", snans-serif;
+}
 
+.mapGastronomia .title {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Vina Sans", cursive;
+  color: #e73c24;
+  letter-spacing: 5px;
+  text-indent: 5px;
+}
 .mapGastronomia img {
   height: 10rem;
 }
 
 /* Passes page */
 /* Passes page */
+.title {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Vina Sans", cursive;
+  color: #e73c24;
+  letter-spacing: 5px;
+  text-indent: 5px;
+}
+
 .buyPasses {
   display: grid;
   row-gap: 10px;
@@ -256,8 +310,9 @@ header {
   background-color: #e73c24;
   border: 3px solid #e73c24;
   border-radius: 2px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 2px 12px 2px 12px;
+  margin: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
 }
 
 /* Merch Page */
@@ -291,12 +346,12 @@ header {
   background-color: #e73c24;
   border: 3px solid #e73c24;
   border-radius: 2px;
-  position: relative;
   padding: 2px 12px 2px 12px;
   margin: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+  position: relative;
   left: 12rem;
   font-size: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
 }
 
 /* FAQ Page */
@@ -321,8 +376,8 @@ header {
 /* Contact page */
 .contactForm {
   display: flex;
-  flex-flow: column wrap;
-  align-items: center;
+  flex-flow: row wrap;
+  justify-content: center;
   justify-content: center;
   background-color: white;
   margin: 50px auto;
@@ -330,6 +385,16 @@ header {
   padding: 40px;
   box-sizing: border-box;
   box-shadow: 0 0 20px rgba(72, 98, 85, 0.6);
+}
+.contactForm .title {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+  font-family: "Vina Sans", cursive;
+  color: #e73c24;
+  letter-spacing: 5px;
+  text-indent: 5px;
 }
 .contactForm .contact-fill label {
   margin: 0.2rem;

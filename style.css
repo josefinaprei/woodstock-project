@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #90c5df;
+    background-color: $lightblue-main;
 }
 
 
@@ -21,7 +21,7 @@ body {
 }
 
 .subtitle {
-    color: #121212;
+    color: $black-main;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -52,24 +52,24 @@ header {
 
 .navbar-nav .nav-item .nav-link:link {
     text-decoration: none;
-    color: #121212;
+    color: $black-main;
 }
 
 .navbar-nav .nav-item .nav-link:visited {
     text-decoration: none;
-    color: #121212;
+    color: $black-main;
 }
 
 .navbar-nav .nav-item .nav-link:hover {
     text-decoration: none;
-    color: #90c5df;
+    color: $lightblue-main;
     margin: 0rem 0.5rem;
 
 }
 
 .navbar-nav .nav-item .nav-link:active {
     text-decoration: none;
-    color: #90c5df;
+    color: $lightblue-main;
 }
 
 /* Responsive images --> all the responsive images in the page*/
@@ -161,7 +161,7 @@ header {
 
 /* Music Page */
 #musica-body body {
-    background-color: #90c5df;
+    background-color: $lightblue-main;
 }
 
 .lineUp {
@@ -341,7 +341,7 @@ header {
 /* FAQ Page */
 .titleFaq {
     text-shadow: 0 0 20px rgb(255, 255, 255);
-    color: #121212;
+    color: $black-main;
 }
 
 @media screen and (max-width: 768px) {
@@ -414,7 +414,7 @@ header {
 @media screen and (min-width: 769px) {
 
     footer {
-        background-color: #121212;
+        background-color: $black-main;
         bottom: 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -432,7 +432,7 @@ header {
 @media screen and (max-width:768px) {
 
     footer {
-        background-color: #121212;
+        background-color: $black-main;
         display: flex;
         padding: 10px;
         flex-flow: column wrap;
@@ -477,7 +477,7 @@ footer p {
 
 .fa-brands:hover {
     text-decoration: none;
-    color: #90c5df;
+    color: $lightblue-main;
     margin: 0rem 0.5rem;
     transition: 1s;
 }
@@ -520,7 +520,7 @@ footer p {
 
 .suscribe button {
     font-family: 'Vina sans', sans-serif;
-    color: #121212;
+    color: $black-main;
     background-color: $orange-main;
     border: 1px solid $orange-main;
     padding: 2px;

@@ -8,7 +8,7 @@
 @media screen and (min-width: 769px) {
 
     footer {
-        background-color: #121212;
+        background-color: $black-main;
         bottom: 0;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -26,7 +26,7 @@
 @media screen and (max-width:768px) {
 
     footer {
-        background-color: #121212;
+        background-color: $black-main;
         display: flex;
         padding: 10px;
         flex-flow: column wrap;
@@ -66,7 +66,7 @@ footer {
 
             &:hover {
                 text-decoration: none;
-                color: #90c5df;
+                color: $lightblue-main;
                 margin: 0rem 0.5rem;
                 transition: 1s;
             }
@@ -107,7 +107,7 @@ footer {
 
             button {
                 font-family: 'Vina sans', sans-serif;
-                color: #121212;
+                color: $black-main;
                 background-color: $orange-main;
                 border: 1px solid $orange-main;
                 padding: 2px;

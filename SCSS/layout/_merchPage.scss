@@ -34,15 +34,10 @@
         }
 
         button {
-            background-color: $orange-main;
-            border: 3px solid $orange-main;
-            border-radius: 2px;
+            @include buttonOrangeShadow;
             position: relative;
-            padding: 2px 12px 2px 12px;
-            margin: 1rem;
             left: 12rem;
             font-size: 1rem;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
         }
     }
 }

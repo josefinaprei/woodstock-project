@@ -13,6 +13,31 @@
 }
 
 @mixin subtitle {
-    color: #121212;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
     font-family: 'Rubik', sans-serif;
+    color: $black-main;
+}
+
+@mixin flexColumnCenter {
+    display: flex;
+    flex-wrap: column wrap;
+    align-items: center;
+}
+
+@mixin flexRowCenter {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+@mixin buttonOrangeShadow {
+    background-color: $orange-main;
+    border: 3px solid $orange-main;
+    border-radius: 2px;
+    padding: 2px 12px 2px 12px;
+    margin: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
 }

@@ -14,12 +14,23 @@
         max-width: 100px;
         margin-top: 1rem;
         background-color: #fff;
+        border-color: #fff;
         border-radius: 100px;
         height: auto;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
     }
+
+    h5 {
+        font-family: 'Rubik', snans-serif;
+    }
 }
 
-.mapGastronomia img {
-    height: 10rem;
+.mapGastronomia {
+    .title {
+        @include title;
+    }
+
+    img {
+        height: 10rem;
+    }
 }
