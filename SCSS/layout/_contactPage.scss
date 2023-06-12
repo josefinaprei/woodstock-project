@@ -16,6 +16,7 @@
 
     .title {
         @include title;
+        color: $orange-main;
     }
 
     .contact-fill {
@@ -36,5 +37,10 @@
             border-radius: 10px;
             transition: all 0.5 ease;
         }
+
+    }
+
+    .contact-send {
+        @include buttonOrangeShadow;
     }
 }

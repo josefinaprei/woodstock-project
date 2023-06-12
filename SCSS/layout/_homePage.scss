@@ -31,7 +31,12 @@
     @include flexColumnCenter;
     position: relative;
 
+    .gradientOverImage {
+        background: linear-gradient(90deg, rgba(113, 113, 113, 0.8603816526610644) 22%, rgba(231, 60, 36, 0.18531162464985995) 100%);
+    }
+
     & img {
+        background: linear-gradient(90deg, rgba(113, 113, 113, 0.8603816526610644) 22%, rgba(231, 60, 36, 0.18531162464985995) 100%);
         z-index: -1;
     }
 

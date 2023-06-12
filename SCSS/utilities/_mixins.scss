@@ -7,7 +7,11 @@
     align-items: center;
     text-align: center;
     font-family: 'Vina Sans', cursive;
-    color: $orange-main;
+    color: transparent;
+    margin: 1rem;
+    -webkit-text-stroke-width: 1.2px;
+    -webkit-text-stroke-color: white;
+    text-shadow: rgba(255, 255, 255, 0.822) 1px 0 50px;
     letter-spacing: 5px;
     text-indent: 5px;
 }
