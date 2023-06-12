@@ -11,3 +11,8 @@
     letter-spacing: 5px;
     text-indent: 5px;
 }
+
+@mixin subtitle {
+    color: #121212;
+    font-family: 'Rubik', sans-serif;
+}

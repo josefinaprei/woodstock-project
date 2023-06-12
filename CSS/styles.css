@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/* Body */
 body {
   background-color: #90c5df;
 }
@@ -51,22 +52,6 @@ header {
 .responsiveimg {
   max-width: 100%;
   height: auto;
-}
-
-.title {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-  text-align: center;
-  font-family: "Vina Sans", cursive;
-  color: #e73c24;
-  letter-spacing: 5px;
-  text-indent: 5px;
-}
-
-.subtitle {
-  color: #121212;
-  font-family: "Rubik", sans-serif;
 }
 
 /* Media Querys */

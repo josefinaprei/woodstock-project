@@ -7,28 +7,11 @@
 //FONTS
 @import './base/fonts';
 
-body {
-    background-color: #90c5df;
-}
+/* Body */
+@import './layout/body';
 
 /* Header */
 @import './layout/header';
-
-.title {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    text-align: center;
-    font-family: 'Vina Sans', cursive;
-    color: $orange-main;
-    letter-spacing: 5px;
-    text-indent: 5px;
-}
-
-.subtitle {
-    color: #121212;
-    font-family: 'Rubik', sans-serif;
-}
 
 /* Media Querys */
 //DESKTOP
