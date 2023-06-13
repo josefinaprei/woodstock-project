@@ -20,11 +20,11 @@
             max-width: 20rem;
             height: auto;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+            transition: 1s ease;
 
             &:hover {
                 transform: scale(1.2);
                 z-index: 1;
-                transition: 1s;
             }
         }
 
