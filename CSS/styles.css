@@ -285,8 +285,24 @@ header .navbar-brand img {
   letter-spacing: 5px;
   text-indent: 5px;
 }
-.mapGastronomia img {
-  height: 10rem;
+.mapGastronomia .foodTrucksImagesBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.mapGastronomia .foodTrucksImagesBox .foodTruckImage {
+  margin: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.308);
+}
+.mapGastronomia .foodTrucksImagesBox .foodTruckImage img {
+  max-width: 10rem;
+  max-height: 10rem;
+  transition: 0.5s ease;
+}
+.mapGastronomia .foodTrucksImagesBox .foodTruckImage img:hover {
+  transform: scale(1.2);
 }
 
 /* Passes page */

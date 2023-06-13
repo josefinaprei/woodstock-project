@@ -30,7 +30,28 @@
         @include title;
     }
 
-    img {
-        height: 10rem;
+    .foodTrucksImagesBox {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 2rem;
+
+        .foodTruckImage {
+            margin: 0.5rem;
+            box-shadow: $box-shadow-soft ;
+
+            img {
+                max-width: 10rem;
+                max-height: 10rem;
+                transition: 0.5s ease;
+
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
     }
+
+
 }
