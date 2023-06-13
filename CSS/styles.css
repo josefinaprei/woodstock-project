@@ -349,6 +349,11 @@ header .navbar-brand img {
   height: auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
 }
+.merchItems .merchProduct img:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  transition: 1s;
+}
 .merchItems .merchProduct h4 {
   font-size: 2rem;
   margin: 10px auto 5px auto;
@@ -368,6 +373,7 @@ header .navbar-brand img {
   position: relative;
   left: 12rem;
   font-size: 1rem;
+  z-index: -1;
 }
 
 /* FAQ Page */

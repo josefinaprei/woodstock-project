@@ -20,6 +20,12 @@
             max-width: 20rem;
             height: auto;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.432);
+
+            &:hover {
+                transform: scale(1.2);
+                z-index: 1;
+                transition: 1s;
+            }
         }
 
         h4 {
@@ -38,6 +44,7 @@
             position: relative;
             left: 12rem;
             font-size: 1rem;
+            z-index: -1;
         }
     }
 }
