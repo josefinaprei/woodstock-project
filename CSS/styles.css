@@ -260,6 +260,9 @@ header .navbar-brand img {
   max-width: auto;
 }
 
+.mapInfo {
+  text-align: center;
+}
 .mapInfo .mapIcon {
   max-width: 100px;
   margin-top: 1rem;
@@ -268,6 +271,10 @@ header .navbar-brand img {
   border-radius: 100px;
   height: auto;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.226);
+  transition: 1s ease;
+}
+.mapInfo .mapIcon:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.877);
 }
 .mapInfo h5 {
   font-family: "Rubik", snans-serif;
