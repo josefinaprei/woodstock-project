@@ -63,12 +63,13 @@ footer {
             color: #e0e0e0;
             font-size: 2rem;
             padding: 7px 10px;
+            transition: 1s;
 
             &:hover {
                 text-decoration: none;
                 color: $lightblue-main;
                 margin: 0rem 0.5rem;
-                transition: 1s;
+
             }
         }
     }
