@@ -11,7 +11,9 @@ body {
 /* Header */
 /* Header */
 header {
-  z-index: 1;
+  position: sticky;
+  top: 0;
+  z-index: 3;
 }
 header .bg-header-color {
   background-color: #e73c24;
@@ -157,7 +159,7 @@ header .navbar-brand img {
   flex-flow: column wrap;
   text-align: center;
   justify-content: center;
-  z-index: 10;
+  z-index: 1;
   position: relative;
   top: -1rem;
 }
